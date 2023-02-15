@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Navigation from '@/Components/Navigation'
+
 import Script from 'next/script'
-import Hero from '@/Components/Hero'
+import Packages from '@/Components/Packages'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,7 +23,7 @@ export default function Home() {
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous" />
 
       <Navigation />
-      <Hero />
+     <Packages />
     </>
   )
 }
