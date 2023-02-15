@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Navigation from '@/Components/Navigation'
-import Services from '@/Components/services'
+import Services from '@/Components/Services'
 import Script from 'next/script'
 
 
