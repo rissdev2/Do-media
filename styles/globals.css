@@ -357,6 +357,29 @@ color: #555555;
   box-shadow: none !important;
 }
 /***********Contact Us Page Css End  *********/
+/***********Payment Page Css Start  *********/
+.payment-sec h3{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 43px;
+
+color: #000000;
+
+}
+.payment-sec p{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+/* or 250% */
+margin-bottom: 0px;
+color: #000000;
+
+}
+/***********Payment Page Css End  *********/
 
 
 
