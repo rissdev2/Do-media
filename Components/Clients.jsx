@@ -12,9 +12,10 @@ export default function Clients() {
         <div className="row justify-content-center">
             <div className="col-md-10 text-center">
                 <img src="assets/images/client.png" className='img-fluid' alt="image" />
-                <Link href="/Contct" className="nav-buttn ">
+                
+                  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal1" className="nav-buttn ">
                 See More
-              </Link>
+                </a>
             </div>
         </div>
     </div>

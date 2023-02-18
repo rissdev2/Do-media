@@ -17,7 +17,7 @@ export default function Hero() {
               Join Us
             </Link>
           </div>
-          <div className="col-md-7 text-end">
+          <div className="col-md-7 mt-5 mt-md-0 text-end">
             <img src="assets/images/hero.png" className="img-fluid" alt="man-image" />
           </div>
         </div>
