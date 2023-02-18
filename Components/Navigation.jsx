@@ -2,6 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Link from "next/link";
+import Popup from "./Popup";
 
 export default function Header() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -91,15 +92,13 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="/Payment">
-                    <p
-                      className={
-                        currentRoute === "/Payment" ? "active" : "non-active"
-                      }
-                    >
-                      Payment
-                    </p>
-                  </Link>
+                  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" className={
+                        currentRoute === "/client" ? "active" : "non-active"
+                      }>
+                  Payment
+                  </a>
+                    <Popup /> 
+                   
                 </li>
               </ul>
             </div>

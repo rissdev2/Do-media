@@ -8,9 +8,9 @@ export default function Contact() {
             <div className="col-md-6">
                 <img src="/assets/images/contact.png" className='img-fluid' alt="images" />
             </div>
-            <div className="col-md-6 ps-5">
+            <div className="col-md-6 ps-md-5">
                 <div className='p-4 contact-sec'>
-                <h2>Love to here from you, <br /> Get in touch 👋 </h2>
+                <h2>Love to here from you, <br className='d-none d-md-block' /> Get in touch 👋 </h2>
 
 <form>
 <div className="mb-3">

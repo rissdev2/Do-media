@@ -6,7 +6,7 @@ export default function services() {
     <div className="container service-sec">
         <div className="row py-5 my-5">
             <div className="col-md-6 ">
-            <h2>Our <br /> Services</h2>
+            <h2>Our <br className='d-none d-md-block' /> Services</h2>
                 <img src="/assets/images/service.png" className='img-fluid' alt="image" />
             </div>
             <div className="col-md-6">
