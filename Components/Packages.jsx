@@ -1,6 +1,6 @@
 import React from 'react'
+import Link from "next/link";
 
-import Popup from './Popup';
 export default function Packages() {
   return (
     <>
@@ -16,44 +16,44 @@ export default function Packages() {
             <div className="col-md-11">
               <div className="row justify-content-center">
               <div className="col-md-2">
-                <a href=""  data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                <Link href="/payment" >
                 <div className='text-center py-5 pric-tab'>
               <img src="assets/images/icon1.png" className='img-fluid' alt="icon" />
               <h3 className='mt-4'>BASIC</h3>
               <h4><span>$ </span>5k <span>/mon</span></h4>
               </div>
-                </a>
+                </Link>
             
             </div>
             <div className="col-md-1"></div>
             <div className="col-md-2 mt-5 mt-md-0 text-center">
-            <a href=""  data-bs-toggle="modal" data-bs-target="#exampleModal" >
+            <Link href="/payment" >
               <div className='text-center py-5 pric-tab'>
               <img src="assets/images/icon2.png" className='img-fluid' alt="icon" />
               <h3 className='mt-4'>PRO</h3>
               <h4><span>$ </span>10k <span>/mon</span></h4>
               </div>
-              </a>
+              </Link>
             </div>
             <div className="col-md-1"></div>
             <div className="col-md-2 mt-5 mt-md-0 text-center">
-            <a href=""  data-bs-toggle="modal" data-bs-target="#exampleModal" >
+            <Link href="/payment" >
               <div className='text-center py-5 pric-tab1'>
               <img src="assets/images/icon3.png" className='img-fluid' alt="icon" />
               <h3 className='mt-4'>GROWTH</h3>
               <h4><span>$ </span>20k <span>/mon</span></h4>
               </div>
-              </a>
+              </Link>
             </div>
             <div className="col-md-1"></div>
             <div className="col-md-2 mt-5 mt-md-0 text-center">
-            <a href=""  data-bs-toggle="modal" data-bs-target="#exampleModal" >
+            <Link href="/payment" >
               <div className='text-center py-5 pric-tab'>
               <img src="assets/images/icon4.png" className='img-fluid' alt="icon" />
               <h3 className='mt-4'>Enterprise</h3>
               <h4><span>$ </span>40k <span>/mon</span></h4>
               </div>
-              </a>
+              </Link>
             </div>
               </div>
            
@@ -65,7 +65,7 @@ export default function Packages() {
             <p>Our digital marketing packages are geared toward producing results—increased website traffic, targeted reach, leads, conversions, retention and sales. Choose from a standard package detailed below, or work with our digital marketing consultants and strategists to build a custom edition based on your unique needs and budgets. <b>Packages include a monthly allotment of points.</b> </p>
             <a className="nav-buttn" >More Details</a>
             {/* <!-- Modal --> */}
-<Popup />
+
             </div>
         </div>
     </div>

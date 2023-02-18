@@ -1,67 +1,19 @@
 import React from 'react'
-
-export default function Popup() {
+import Popup from './Popup';
+export default function Payment() {
   return (
     <>
-    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div className="modal-dialog modal-dialog-centered">
-    <div className="modal-content">
-     
-      <div className="modal-body">
-      <div className="row align-items-center">
+    <div className="container payment-sec">
+    <div className="row mt-md-5 pt-md-5 align-items-center">
           <div className="col-md-6 text-center py-5">
             <img src="assets/images/pop.png" className='img-fluid' alt="image" />
-            {/* <h3 className='mt-5'>Hi Kashan,</h3>
-            <p>It is really great that you decided to move forward with <br className='d-none d-md-block' /> this offer, Now please confirm your choice to proceed.</p> */}
+            <h3 className='mt-5'>Hi Kashan,</h3>
+            <p>It is really great that you decided to move forward with <br className='d-none d-md-block' /> this offer, Now please confirm your choice to proceed.</p>
           </div>
           <div className="col-md-6 p-5 text-start  pop-data">
-              <img src="assets/images/logo.png" className='img-fluid' alt="" />
-              <h2 className='text-center mt-5'>Thank You</h2>
-             
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div className="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
-  <div className="modal-dialog modal-dialog-centered">
-    <div className="modal-content">
-     
-      <div className="modal-body">
-        <div className="row align-items-center">
-          <div className="col-md-6 text-center p-5">
-            <img src="assets/images/pop.png" className='img-fluid' alt="image" />
-            {/* <h3 className='mt-5'>Hi Kashan,</h3>
-            <p>It is really great that you decided to move forward with <br className='d-none d-md-block' /> this offer, Now please confirm your choice to proceed.</p> */}
-          </div>
-          <div className="col-md-6 p-5 text-start  pop-data">
-              <img src="assets/images/logo.png" className='img-fluid' alt="" />
-              <h2 className='text-center mt-5'>Thank You!</h2>
-              {/* <div>
+              {/* <img src="assets/images/logo.png" className='img-fluid' alt="" /> */}
+              <h2 className='text-center mt-5'>we do everything</h2>
+              <div>
                 <div className="row mt-5 align-items-center border-bottom">
                   <div className="col-3 col-md-2">
                     <img src="assets/images/avatar.png" className='img-fluid' alt="avatar image" />
@@ -112,18 +64,16 @@ export default function Popup() {
                 </div> 
                 <div className="row mt-5">
                   <div className="col-md-12 text-center">
-                  <Link href="/contct" className="nav-buttn ">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" className="nav-buttn ">
                   Buy Basic Plan
-              </Link>
+              </a>
+                    <Popup />
                   </div>
                 </div>
-              </div> */}
+              </div>
           </div>
         </div>
-      </div>
     </div>
-  </div>
-</div>
     </>
   )
 }
